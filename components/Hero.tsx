@@ -1,9 +1,15 @@
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
-import Link from "next/link";
-import { RiMenFill } from "react-icons/ri";
-import Socials from "./Socials";
-import HeroImg from "./HeroImg";
+import { Input } from './ui/input';
+import { Button } from './ui/button';
+import Link from 'next/link';
+import {
+  RiMenFill,
+  RiBookmark3Fill,
+  RiBodyScanFill,
+  RiServiceFill,
+} from 'react-icons/ri';
+import Socials from './Socials';
+import HeroImg from './HeroImg';
+import Badge from './Badge';
 
 export default function Hero() {
   return (
@@ -18,9 +24,9 @@ export default function Hero() {
               HADİ SİHİR YAPALIM!
             </h1>
             <p className="text-muted-foreground text-lg mb-8 font-lightmt-4 mx-auto xl:mx-0">
-              San Francisco'dan doğa, portre ve sanat film fotoğrafçılarıyız ve
-              doğal ışığı, orta format film kameralarını ve benekli kızıl
-              saçlıları özellikle seviyoruz.
+              Alanya'dan doğa, portre ve sanat film fotoğrafçılarıyız ve doğal
+              ışığı, orta format film kameralarını ve benekli kızıl saçlıları
+              özellikle seviyoruz.
             </p>
 
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-1 mx-auto xl:mx-0 mb-12">
@@ -31,7 +37,7 @@ export default function Hero() {
                 <Input type="email" id="email" placeholder="E-posta" />
                 <Link href="/contact">
                   <Button className="gap-x-2 bg-black">
-                    Abone Ol <RiMenFill size={18} />{" "}
+                    Abone Ol <RiMenFill size={18} />{' '}
                   </Button>
                 </Link>
               </div>
@@ -42,11 +48,57 @@ export default function Hero() {
             />
           </div>
 
-          <div className="hidden xl:flex relative">
+          <div className="hidden xl:flex  relative">
             <HeroImg
               imgSrc="/about/photography.svg"
               containerStyles="bg-no-repeat relative bg-bottom w-[550px] h-[475px]"
             />
+          </div>
+        </div>
+        <div className="py-24 sm:py-32">
+          <div className="mx-auto max-2-7xl px-6 lg:px-8">
+            <dl
+              className="grid grid-cols-1
+             gap-x-8 gap0y016 text-center lg:grid-cols-3">
+              <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <dt className="text-base leading-7 text-muted-foreground">
+                  Yılların Deneyimi
+                </dt>
+                <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                  <Badge
+                    icon={<RiBookmark3Fill />}
+                    endCountNum={12}
+                    endCountText="+"
+                  />
+                </dd>
+              </div>
+
+              <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <dt className="text-base leading-7 text-muted-foreground">
+                  Takipçiler
+                </dt>
+                <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                  <Badge
+                    icon={<RiBodyScanFill />}
+                    endCountNum={500}
+                    endCountText="k"
+                  />
+                </dd>
+              </div>
+
+              <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <dt className="text-base leading-7 text-muted-foreground">
+                  Projeler
+                </dt>
+                <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                  <Badge
+                    icon={<RiServiceFill />}
+                    endCountNum={69}
+                    endCountText="+"
+                  />
+                </dd>
+              </div>
+            </dl>
           </div>
         </div>
       </div>

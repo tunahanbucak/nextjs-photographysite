@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
-import ThemeToggler from "./ThemeToggler";
-import Image from "next/image";
-import Nav from "./Nav";
-import MobileNav from "./MobileNav";
-import { usePathname } from "next/navigation";
+import React, { useState, useEffect } from 'react';
+import ThemeToggler from './ThemeToggler';
+import Image from 'next/image';
+import Nav from './Nav';
+import MobileNav from './MobileNav';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
   const [header, setHeader] = useState(false);
@@ -16,9 +16,9 @@ export default function Header() {
     const scrollYPos = () => {
       window.scrollY > 50 ? setHeader(true) : setHeader(false);
     };
-    window.addEventListener("scroll", scrollYPos);
+    window.addEventListener('scroll', scrollYPos);
     return () => {
-      window.removeEventListener("scroll", scrollYPos);
+      window.removeEventListener('scroll', scrollYPos);
     };
   }, []);
 
@@ -26,9 +26,9 @@ export default function Header() {
     <header
       className={`${
         header
-          ? "py-4 bg-white shadow-lg dark:bg-accent"
-          : "py-6 dark:bg-transparent"
-      } sticky top-0 z-30 transition-all ${pathname === "/" && "bg-[#fff]"} `}>
+          ? 'py-4 bg-white shadow-lg dark:bg-accent'
+          : 'py-6 dark:bg-transparent'
+      } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fff]'} `}>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Image src="logo.svg" width={55} height={55} priority alt="" />

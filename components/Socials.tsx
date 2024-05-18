@@ -3,10 +3,10 @@
 import Link from "next/link";
 import {
   RiPaypalFill,
-  RiTwitterFill,
   RiSkypeFill,
   RiFacebookFill,
   RiInstagramFill,
+  RiTwitterXFill,
 } from "react-icons/ri";
 
 interface SocialsProps {
@@ -25,7 +25,7 @@ const icons = [
   },
   {
     path: "/",
-    name: <RiTwitterFill />,
+    name: <RiTwitterXFill />,
   },
 
   {
