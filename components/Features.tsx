@@ -39,7 +39,6 @@ export default function Features() {
         <h2 className="text-4xl text-primary font-bold relative w-max flex items-center justify-between gap-x-3 mb=2 xl:mb-3 text-center mx-auto">
           Temel Özellikler
         </h2>
-
         <div className="flex flex-col">
           <div className="mx-auto max-w-7xl text-center">
             <p className="mt-w text-3xl font-bold tracking-tight text-black dark:text-white sm:text-4xl">
