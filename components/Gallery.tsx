@@ -58,7 +58,7 @@ const projectData = [
   },
   {
     image: '/work/10.png',
-    category: 'Modeller',
+    category: 'Kurumsal',
     name: '25 Ağustos 2024',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',

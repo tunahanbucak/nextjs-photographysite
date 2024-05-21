@@ -19,42 +19,42 @@ const reviewsData = [
     name: 'Jenifer',
     job: 'Şef',
     review:
-      'Ama size tüm bu zevki inkâr etme ve acıyı yüceltme yanlış fikrinin nasıl doğduğunu açıklamalıyım ve size sistemin tam bir açıklamasını vereceğim',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',
   },
   {
     avatar: '/reviews/avatar-2.png',
     name: 'Lopez Chris',
     job: 'CEO',
     review:
-      'Zevki kınamak ve acıyı övmekle ilgili tüm bu yanlış fikrin nasıl doğduğunu ve ssitemin tam bir açıklamasını açıklayacağım.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',
   },
   {
     avatar: '/reviews/avatar-3.png',
     name: 'Hamilton',
     job: 'COO',
     review:
-      'Zevki kınamak ve acıyı övmekle ilgili tüm bu yanlış fikrin nasıl doğduğunu ve ssitemin tam bir açıklamasını açıklayacağım.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',
   },
   {
     avatar: '/reviews/avatar-4.png',
     name: 'Lucifer',
     job: 'APP Developer',
     review:
-      'Zevki kınamak ve acıyı övmekle ilgili tüm bu yanlış fikrin nasıl doğduğunu ve ssitemin tam bir açıklamasını açıklayacağım.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',
   },
   {
     avatar: '/reviews/avatar-5.png',
     name: 'Mark Steve',
     job: 'Şef',
     review:
-      'Zevki kınamak ve acıyı övmekle ilgili tüm bu yanlış fikrin nasıl doğduğunu ve ssitemin tam bir açıklamasını açıklayacağım.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi.',
   },
   {
     avatar: '/reviews/avatar-6.png',
     name: 'Stork Gem',
     job: 'Şef',
     review:
-      'Zevki kınamak ve acıyı övmekle ilgili tüm bu yanlış fikrin nasıl doğduğunu ve ssitemin tam bir açıklamasını açıklayacağım.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,modi. ',
   },
 ];
 
@@ -62,7 +62,7 @@ export default function Reviews() {
   return (
     <section className="mb-12 xl:mb-32">
       <div className="container mx-auto">
-        <h2 className="text-4xl text-primary font-bold  w-max flex items-center justify-between gap-x-3 mb-8 xl:mb-16 text-center mx-auto">
+        <h2 className="text-4xl text-primary font-bold  flex items-center justify-center gap-x-3 mb-8 xl:mb-16 text-center mx-auto">
           Çalışmalarımız hakkında şunları söylüyorlar
         </h2>
         <Swiper

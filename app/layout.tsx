@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
 import { Sen } from 'next/font/google';
+import { Toaster } from '@/components/ui/toaster';
 
 const SenFont = Sen({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

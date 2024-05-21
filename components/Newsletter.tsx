@@ -12,14 +12,14 @@ export default function Newsletter() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             <div className="max-w-xl lg:max-w-lg">
-              <h2 className="tracking-tight sm:text-4xl text-4xl text-primary font-bold relative w-max flex items-center justify-between gap-x-3">
+              <h2 className="tracking-tight sm:text-4xl text-4xl text-primary font-bold relative  flex items-center justify-between gap-x-3">
                 Fotoğrafçıya mı ihtiyacınız var?
               </h2>
               <p className="mt-4  leading-8 text-muted-foreground text-lg mb-8 font-light">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Impedit distinctio incidunt,
+                id officiis
               </p>
 
               <div className="mt-6 flex max-w-md gap-x-4">
@@ -29,11 +29,11 @@ export default function Newsletter() {
                   type="email"
                   autoComplete="email"
                   required
-                  placeholder="Enter your email"
+                  placeholder="E-postanızı girin"
                 />
                 <Link href="/contact">
                   <Button>
-                    Subscribe <RiMenFill size={18} />
+                    Abone ol <RiMenFill size={18} />
                   </Button>
                 </Link>
               </div>

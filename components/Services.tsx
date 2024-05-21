@@ -12,19 +12,19 @@ const servicesData = [
     icon: <Smile size={48} strokeWidth={1} />,
     title: 'Portre',
     description:
-      'Ama size tüm bu zevki inkâr etme ve acıyı yüceltme yanlış fikrinin nasıl doğduğunu açıklamalıyım ve size sistemin tam bir açıklamasını vereceğim',
+      'Portre fotoğrafları eskiden sadece “vesikalık” çekimi olarak düşünülürdü. Günümüzde ise, kurumsal firmalar için olmazsa olmaz bir ihtiyaç haline geldi. Sadece kurumsal firmalar değil, profesyonel hayatın da bir parçası.Portre çekimlerini açık alanda, stüdyoda veya iş ortamınızda yapabiliyoruz. Hepsinin farklı bir amacı ve havası var.',
   },
   {
     icon: <Scan size={48} strokeWidth={1} />,
     title: 'Manzaralar',
     description:
-      'Ama size tüm bu zevki inkâr etme ve acıyı yüceltme yanlış fikrinin nasıl doğduğunu açıklamalıyım ve size sistemin tam bir açıklamasını vereceğim',
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
   },
   {
     icon: <Bird size={48} strokeWidth={1} />,
     title: 'Yaşam Tarzı',
     description:
-      'Ama size tüm bu zevki inkâr etme ve acıyı yüceltme yanlış fikrinin nasıl doğduğunu açıklamalıyım ve size sistemin tam bir açıklamasını vereceğim',
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio incidunt, id officiis Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
   },
 ];
 
@@ -35,7 +35,6 @@ export default function Services() {
         <h2 className="text-4xl text-primary font-bold relative w-max flex items-center justify-between gap-x-3 mb-6 sl:mb-24 text-center mx-auto">
           Hizmetlerimiz
         </h2>
-
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
           {servicesData.map((item, index) => {
             return (

@@ -45,7 +45,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </div>
         </div>
       </CardHeader>
-
       <div className="h-full px-8 py-6">
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5 ">
           {project.category}

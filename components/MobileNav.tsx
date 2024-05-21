@@ -1,8 +1,8 @@
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import Nav from "./Nav";
-import Socials from "./Socials";
-import { AlignJustify } from "lucide-react";
-import Image from "next/image";
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import Nav from './Nav';
+import Socials from './Socials';
+import { AlignJustify } from 'lucide-react';
+import Image from 'next/image';
 
 export default function MobileNav() {
   return (
